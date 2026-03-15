@@ -1,0 +1,119 @@
+{
+  "626a9c0f": {
+    "title": "分析",
+    "messages": [
+      {
+        "role": "user",
+        "content": "分析",
+        "images": [
+          "E:\\Work SoftWare\\physicalTest\\data\\raw_images\\626a9c0f\\query_raw_20260314_221331.jpg"
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "请上传图片进行分析。",
+        "step1_log": "原始输入：分析\n英文意图：Analysis",
+        "step2_log": "成功召回 5 份病例：\n- 召回病例 1: UID 225, 距离 0.067\n- 召回病例 2: UID 495, 距离 0.074\n- 召回病例 3: UID 341, 距离 0.075\n- 召回病例 4: UID 234, 距离 0.078\n- 召回病例 5: UID 399, 距离 0.081\n",
+        "step3_log": "触发 MedGemma 流式输出并完成翻译。",
+        "retrieved_cases": [
+          {
+            "uid": "225",
+            "dist": 0.06725084781646729,
+            "image_path": "E:\\Work SoftWare\\physicalTest\\data\\iu_xray\\datasets\\raddar\\chest-xrays-indiana-university\\versions\\2\\images\\images_normalized\\225_IM-0844-1001.dcm.png",
+            "report": "Findings: Cardiomediastinal silhouette is within normal limits. No focal consolidation. No pneumothorax or pleural effusion. No acute bony abnormalities.\nImpression: No acute cardiopulmonary abnormalities. ."
+          },
+          {
+            "uid": "495",
+            "dist": 0.07370853424072266,
+            "image_path": "E:\\Work SoftWare\\physicalTest\\data\\iu_xray\\datasets\\raddar\\chest-xrays-indiana-university\\versions\\2\\images\\images_normalized\\495_IM-2114-1001.dcm.png",
+            "report": "Findings: Heart size within normal limits. Streaky airspace disease is demonstrated on the lateral examination. No pneumothorax or pleural effusion.\nImpression: Streaky air space disease may represent infiltrate. ."
+          },
+          {
+            "uid": "341",
+            "dist": 0.07456505298614502,
+            "image_path": "E:\\Work SoftWare\\physicalTest\\data\\iu_xray\\datasets\\raddar\\chest-xrays-indiana-university\\versions\\2\\images\\images_normalized\\341_IM-1648-1001.dcm.png",
+            "report": "Findings: Two-view chest. Both lungs are clear and expanded. Heart and mediastinum normal. Right foot. Hindfoot, midfoot, forefoot XXXX are intact with no fractures or bone destruction.\nImpression: 1. Chest. No active disease. 2. Right foot. Negative."
+          },
+          {
+            "uid": "234",
+            "dist": 0.0779886245727539,
+            "image_path": "E:\\Work SoftWare\\physicalTest\\data\\iu_xray\\datasets\\raddar\\chest-xrays-indiana-university\\versions\\2\\images\\images_normalized\\234_IM-0906-0001-0001.dcm.png",
+            "report": "Findings: The trachea is midline. The cardiomediastinal silhouette is normal. The lungs are clear, without focal consolidation or effusion. There is no pneumothorax. The visualized bony structures reveal no acute abnormalities. Lateral view reveals mild degenerative changes of the thoracic spine. No layering pleural effusion or pneumothorax seen on decubitus exam.\nImpression: Chest x-XXXX, lateral, and decubitus. 1. No acute cardiopulmonary abnormalities. 2. No evidence of pleural effusion. ."
+          },
+          {
+            "uid": "399",
+            "dist": 0.08104836940765381,
+            "image_path": "E:\\Work SoftWare\\physicalTest\\data\\iu_xray\\datasets\\raddar\\chest-xrays-indiana-university\\versions\\2\\images\\images_normalized\\399_IM-2043-1001.dcm.png",
+            "report": "Findings: Heart size and pulmonary vascularity appear within normal limits. The lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen. Degenerative changes are present in the spine.\nImpression: 1. No evidence of active disease."
+          }
+        ]
+      }
+    ],
+    "update_time": "2026-03-14 22:19:08"
+  },
+  "2f592c4d": {
+    "title": "分析病灶",
+    "messages": [
+      {
+        "role": "user",
+        "content": "分析病灶",
+        "images": [
+          "E:\\Work SoftWare\\physicalTest\\data\\raw_images\\2f592c4d\\query_raw_20260314_225140.jpg"
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "请上传图片进行分析。",
+        "step1_log": "原始输入：分析病灶\n英文意图：Diagnosis of Lesion",
+        "step2_log": "成功召回 5 份病例：\n- 召回病例 1: UID 458, 距离 0.069\n- 召回病例 2: UID 184, 距离 0.069\n- 召回病例 3: UID 86, 距离 0.070\n- 召回病例 4: UID 373, 距离 0.071\n- 召回病例 5: UID 125, 距离 0.074\n",
+        "step3_log": "触发 MedGemma 流式输出并完成翻译。",
+        "retrieved_cases": [
+          {
+            "uid": "458",
+            "dist": 0.06860333681106567,
+            "image_path": "E:\\Work SoftWare\\physicalTest\\data\\iu_xray\\datasets\\raddar\\chest-xrays-indiana-university\\versions\\2\\images\\images_normalized\\458_IM-2089-1001.dcm.png",
+            "report": "Findings: The lungs are clear. The heart and pulmonary XXXX are normal. The pleural spaces are clear. Mediastinal contours are normal. Bony overlap in the lung apices could obscure a small pulmonary nodule.\nImpression: No acute cardiopulmonary disease"
+          },
+          {
+            "uid": "184",
+            "dist": 0.06920355558395386,
+            "image_path": "E:\\Work SoftWare\\physicalTest\\data\\iu_xray\\datasets\\raddar\\chest-xrays-indiana-university\\versions\\2\\images\\images_normalized\\184_IM-0544-1001.dcm.png",
+            "report": "Findings: PA and lateral views were obtained. Lungs are clear. There is no pneumothorax or pleural effusion. The heart and mediastinum are within normal limits. Bony structures are intact. A 5 mm stable right apical nodule.\nImpression: No acute cardiopulmonary process."
+          },
+          {
+            "uid": "86",
+            "dist": 0.07002794742584229,
+            "image_path": "E:\\Work SoftWare\\physicalTest\\data\\iu_xray\\datasets\\raddar\\chest-xrays-indiana-university\\versions\\2\\images\\images_normalized\\86_IM-2380-1001.dcm.png",
+            "report": "Findings: Heart size is within normal limits. No focal airspace consolidations. No pneumothorax or pleural effusion.\nImpression: No acute cardiopulmonary findings."
+          },
+          {
+            "uid": "373",
+            "dist": 0.07123619318008423,
+            "image_path": "E:\\Work SoftWare\\physicalTest\\data\\iu_xray\\datasets\\raddar\\chest-xrays-indiana-university\\versions\\2\\images\\images_normalized\\373_IM-1864-1001.dcm.png",
+            "report": "Findings: Both lungs are clear and expanded. Heart and mediastinum normal.\nImpression: No active disease."
+          },
+          {
+            "uid": "125",
+            "dist": 0.07359093427658081,
+            "image_path": "E:\\Work SoftWare\\physicalTest\\data\\iu_xray\\datasets\\raddar\\chest-xrays-indiana-university\\versions\\2\\images\\images_normalized\\125_IM-0169-1001.dcm.png",
+            "report": "Findings: The heart is normal in size. The mediastinum is stable. XXXX sternotomy changes are again noted. The lungs are clear of focal infiltrates. There is no pleural effusion.\nImpression: No acute disease."
+          }
+        ]
+      }
+    ],
+    "update_time": "2026-03-14 22:52:09"
+  },
+  "fcb9cbcc": {
+    "title": "有ROI",
+    "messages": [
+      {
+        "role": "user",
+        "content": "分析",
+        "images": [
+          "E:\\Work SoftWare\\physicalTest\\data\\raw_images\\fcb9cbcc\\query_raw_20260314_231305.jpg"
+        ]
+      }
+    ],
+    "update_time": "2026-03-14 23:13:05"
+  }
+}
