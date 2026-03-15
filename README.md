@@ -20,7 +20,7 @@
 
 
 ## 核心架构
-![系统架构图](doc\images\structure2.png)
+![系统架构图](doc/images/structure2.png)
 
 关键模块及其作用：
 - 模块A：前端交互界面（Streamlit）
@@ -55,7 +55,7 @@
 
 
 ## 演示视频
-![系统架构图](doc\images\gift.gif)
+![系统架构图](doc/images/gift.gif)
 
 
 ## 快速开始
